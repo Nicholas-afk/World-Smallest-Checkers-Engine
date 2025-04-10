@@ -1,4 +1,4 @@
-e,f,u,o,t='.b'*5,'b.'*5,'.w'*5,'w.'*5,range(10)
+e,f,u,o='.b'*5,'b.'*5,'.w'*5,'w.'*5
 b=[list(e),list(f),list(e),list(f),['.']*10,['.']*10,list(u),list(o),list(u),list(o)]
 c=lambda C:(int(C[0])-1,10-int(C[1]))
 def v(x,y,X,Y):
